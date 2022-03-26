@@ -88,6 +88,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 0px 4px;
 }
 .playlist-songs li {
   width: 100%;
@@ -120,6 +121,7 @@
 } */
 .playlist-songs__menu {
   color: var(--lilac-dark-opacity);
+  opacity: 0.5;
   font-size: 1.2rem;
 }
 .play-menu {
