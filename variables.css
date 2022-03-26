@@ -1,0 +1,11 @@
+:root {
+  --yellow: #fece32;
+  --padding-side: 12px;
+  --font-black: #262626;
+  --font-gray: #ababab;
+  --disable-gray: #e9e9e9;
+  --lilac-light: rgb(255, 238, 250);
+  --lilac-light-opacity: rgba(255, 238, 250, 0.3);
+  --lilac-dark: rgba(65, 12, 60, 1);
+  --lilac-dark-opacity: rgba(65, 12, 60, 0.75);
+}
