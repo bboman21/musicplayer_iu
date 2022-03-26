@@ -1,5 +1,11 @@
 .album {
-  background-image: url("./img/iu.png");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("./img/iu.png");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

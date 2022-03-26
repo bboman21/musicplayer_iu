@@ -1,5 +1,10 @@
 .playsong {
-  background-image: url("./img/lilac.png");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("./img/lilac.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,8 +23,8 @@
   height: 240px;
   width: 240px;
   border-radius: 20px;
-  box-shadow: 0px 20px 20px rgba(252, 150, 100, 0.3),
-    0px 10px 20px rgba(252, 150, 100, 0.3);
+  box-shadow: 0px 20px 20px rgba(252, 150, 100, 0.1),
+    0px 10px 20px rgba(252, 150, 100, 0.2);
 }
 .song-profile div:last-child {
   text-align: center;
